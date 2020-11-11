@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/App.css";
+import "../stylesheets/App.scss";
 import TextInput from "./TextInput";
 import MiMiTranslator from "./MiMiTranslator";
 
