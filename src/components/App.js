@@ -1,7 +1,8 @@
 import React from "react";
 import "../stylesheets/App.scss";
 import TextInput from "./TextInput";
-import MiMiTranslator from "./MiMiTranslator";
+import MiMiTranslator from "./MimiTranslator";
+import Header from "./Header";
 
 class App extends React.Component {
   constructor(props) {
@@ -17,10 +18,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <TextInput getInformation={this.translateText} />
-        <MiMiTranslator displayText={this.myText} />
-      </div>
+      <>
+        <div className="page">
+          <Header />
+          <TextInput getInformation={this.translateText} />
+          <MiMiTranslator displayText={this.myText} />
+        </div>
+      </>
     );
   }
 }

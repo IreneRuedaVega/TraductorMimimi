@@ -13,9 +13,13 @@ class TextInput extends React.Component {
   render() {
     return (
       <div>
-        <h2>Traductor MIMIMI</h2>
-        <form>
-          <textarea onChange={this.handleText}></textarea>
+        <form className="form">
+          <textarea
+            maxLength="280"
+            className="form__text"
+            onChange={this.handleText}
+            placeholder="Expresa aquí tu opinión"
+          ></textarea>
         </form>
       </div>
     );

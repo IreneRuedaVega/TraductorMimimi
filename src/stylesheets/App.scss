@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 85px;
+}
+
+.form {
+  margin-top: 100px;
+  background: transparent;
+}
+
+.form__text {
+  width: 400px;
+  padding: 20px;
+  height: 150px;
+  border-radius: 20px;
+  background-color: #6e94e2;
+  border: 2px solid #d7e6f7;
+  color: white;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::placeholder {
+  color: #d7e6f7;
+  font-size: 1.15em;
+}
+
+.page__translator {
+  background-color: white;
+  margin-top: 40px;
+  width: 600px;
+  border-radius: 15px;
+  height: 300px;
+}
+
+.twitterHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.twitterHeader__user {
+  margin-right: 350px;
+}
+
+.twitterHeader__user--name {
+  color: #3f4244;
+}
+
+.twitterHeader__user--count {
+  color: #778794;
+}
+
+.twitterMain {
+  width: 570px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.twitterMain__answer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #778794;
+  font-size: 15px;
+}
+
+.twitterMain__answer--user {
+  color: #1da1f2;
+}
+
+.twitterMain__text {
+  color: #3f4244;
+  white-space: pre-wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-top: 12px;
+  padding-bottom: 80px;
+}
+
+.twittertime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 15px 10px 15px;
+  overflow: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #778794;
+}
+
+.twittertime__date {
+  margin-right: 390px;
+}
+
+.twittertime__img {
+  width: 20px;
+}
+
+.twitterinteractions {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  margin: 0 15px 0 15px;
+  border-top: 1.5px solid #778794;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #778794;
+}
+
+.twitterinteractions__img {
+  width: 17px;
+  height: 17px;
+  margin-right: 12px;
+}
+
+.twitterinteractions__likes {
+  margin-right: 20px;
+}
