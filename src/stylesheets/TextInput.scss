@@ -1,0 +1,21 @@
+.form {
+  margin-top: 60px;
+  background: transparent;
+
+  &__text {
+    width: 400px;
+    padding: 20px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #6e94e2;
+    border: 2px solid #d7e6f7;
+    color: white;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+::placeholder {
+  color: #d7e6f7;
+  font-size: 1.15em;
+}

@@ -1,0 +1,85 @@
+.twitterHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  &__user {
+    margin-right: 350px;
+
+    &--name {
+      color: #3f4244;
+    }
+
+    &--count {
+      color: #778794;
+    }
+  }
+}
+
+.twitterMain {
+  width: 570px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+
+  &__answer {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #778794;
+    font-size: 15px;
+
+    &--user {
+      color: #1da1f2;
+    }
+  }
+
+  &__text {
+    color: #3f4244;
+    white-space: pre-wrap;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+    padding-bottom: 80px;
+  }
+}
+
+.twitterTime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 15px 10px 15px;
+  overflow: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #778794;
+
+  &__date {
+    margin-right: 390px;
+  }
+
+  &__img {
+    width: 20px;
+  }
+}
+
+.twitterInteractions {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  margin: 0 15px 0 15px;
+  border-top: 1.5px solid #778794;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #778794;
+
+  &__img {
+    width: 17px;
+    height: 17px;
+    margin-right: 12px;
+  }
+
+  &__likes {
+    margin-right: 20px;
+  }
+}
